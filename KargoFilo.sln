@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KargoFilo", "KargoFilo\KargoFilo.csproj", "{C58C7054-D290-45EB-AE63-FF208AA1A6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KargoAraci", "KargoAraci\KargoAraci.csproj", "{411C1338-F589-40F3-8E06-2B753B88812B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C58C7054-D290-45EB-AE63-FF208AA1A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58C7054-D290-45EB-AE63-FF208AA1A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58C7054-D290-45EB-AE63-FF208AA1A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58C7054-D290-45EB-AE63-FF208AA1A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411C1338-F589-40F3-8E06-2B753B88812B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411C1338-F589-40F3-8E06-2B753B88812B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411C1338-F589-40F3-8E06-2B753B88812B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411C1338-F589-40F3-8E06-2B753B88812B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3B620E3-8BDF-45C5-9CBD-573C48BEF0F0}
+	EndGlobalSection
+EndGlobal
