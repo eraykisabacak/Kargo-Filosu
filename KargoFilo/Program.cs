@@ -24,8 +24,6 @@ namespace KargoFilo
                 kargo_araci1.Speed = i;
                 kargo_araci2.Speed = (byte)(i + j);
                 Console.WriteLine("**********************************************************************************************");
-                //kargo_araci1.kargo_aracı_SpeedExceeded();
-                //kargo_araci2.kargo_aracı_SpeedExceeded();
                 Console.WriteLine(kargo_araci1.Plaka + " plakalı aracın hızı = " + kargo_araci1.Speed);
                 Console.WriteLine(kargo_araci2.Plaka + " plakalı aracın hızı = " + kargo_araci2.Speed + "\n");
                 Thread.Sleep(1000);
