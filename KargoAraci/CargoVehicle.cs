@@ -9,7 +9,7 @@ namespace KargoAraci
     public class CargoVehicle
     {
         public string Plaka;
-        public byte Speed;
+        private byte speed;
         public string Marka;
 
         public CargoVehicle(string Plaka,string Marka)
@@ -18,15 +18,18 @@ namespace KargoAraci
             this.Marka = Marka;
         }
 
-        public delegate void SpeedHandler();
+        public delegate void SpeedHandler(object source, EventArgs args);
         public event SpeedHandler SpeedExceeded;
 
-        public void kargo_aracı_SpeedExceeded()
+        public byte Speed
         {
-            if(Speed >= 110)
+            get { return speed; }
+            set
             {
-                Console.WriteLine("Alarm: {0} plakalı {1} marka kargo aracı hız limitini aştı. {2} anındaki hızı: {3}",
-                                    Plaka, Marka, DateTime.Now, Speed);
+                speed = value;
+
+                if (SpeedExceeded != null && speed >= 110)
+                    SpeedExceeded(this, EventArgs.Empty);
             }
         }
     }
